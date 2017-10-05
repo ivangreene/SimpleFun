@@ -1,3 +1,5 @@
 rootProject.name = 'SimpleFun'
+include ':gl-react-native'
+project(':gl-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/gl-react-native/android')
 
 include ':app'
